@@ -2,13 +2,13 @@
  * @Author: cgshuo cgshuo@163.com
  * @Date: 2024-05-29 13:47:31
  * @LastEditors: cgshuo cgshuo@163.com
- * @LastEditTime: 2024-05-29 14:00:25
+ * @LastEditTime: 2024-05-29 14:05:34
  * @FilePath: \undefinedd:\OneDrive\code\NJU\scPlantGPT\README.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
 # scPlantGPT
 
-# Single-Cell Plant Generative pre-trained transformer model
+# Single-Cell Plant Generative Pre-trained Transformer model
 
 This project aims to pretrain a large model using 1 million plant single-cell data and further pretrain a cell annotation model and a batch integration model based on this pretrained model. Ultimately, we can use these pretrained models for cell annotation, providing an efficient method for handling large-scale plant single-cell data.
 
@@ -19,6 +19,10 @@ This project aims to pretrain a large model using 1 million plant single-cell da
 3. **Pretraining the Cell Annotation Model**: Use the pretrained generative model's weights to further pretrain the cell annotation model on the 1 million plant single-cell data.
 4. **Pretraining the Batch Integration Model**: Use the pretrained generative model's weights to further pretrain the batch integration model on the 1 million plant single-cell data.
 5. **Cell Annotation Application**: Use the pretrained cell annotation model for cell annotation. You can choose to apply it directly or fine-tune it before application.
+
+## Article in Progress
+
+An article detailing the methodology and results of this project is currently being drafted and will be published soon. Stay tuned for more information.
 
 ## Example Results
 
