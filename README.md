@@ -25,15 +25,14 @@ This project aims to pretrain a large model using 1 million plant single-cell da
 
 ### Environment Dependencies
 
-- Python 3.8+
+- Python 3.11+
 - Refer to `requirements.txt` for the list of dependencies.
 
 ### Steps
 
 1. Clone this repository
     ```bash
-    git clone https://github.com/your_username/cell-pretrain-annotation.git
-    cd cell-pretrain-annotation
+    git@github.com:cgshuo/scPlantGPT.git
     ```
 
 2. Create and activate a virtual environment (optional)
@@ -51,11 +50,4 @@ This project aims to pretrain a large model using 1 million plant single-cell da
 
 ### Data Preparation
 
-Ensure your data format meets the project requirements. You need to provide 1 million plant single-cell data. The data should be stored in the `data/` directory.
-
 ### Pretraining the Generative Model
-
-Run the following command to pretrain the generative model:
-
-```bash
-python scripts/train_generator.py --data_dir data/train_data/ --output_dir models/generator/
